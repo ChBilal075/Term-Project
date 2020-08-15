@@ -59,7 +59,7 @@ app.use(function (err, req, res, next) {
 });
 
 mongoose
-  .connect("mongodb://localhost/productscrud", {
+  .connect("mongodb+srv://bilal:bilal2766@cluster0.7flev.mongodb.net/test", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
